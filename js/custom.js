@@ -42,7 +42,7 @@
 
             // Show the winner effect first
             if ($b.length) {
-                $b.find('.winner-text').text('Asam🌹,   Thank You My Love ❤');
+                $b.find('.winner-text').text('Asam🌹, Thank You My Love ❤');
                 $b.addClass('show');
                 spawnConfetti(80);
                 $('#btn-yes, #btn-no').prop('disabled', true);
