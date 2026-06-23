@@ -42,7 +42,7 @@
 
             // Show the winner effect first
             if ($b.length) {
-                $b.find('.winner-text').text('Asam🌹,   Thank You ML ❤');
+                $b.find('.winner-text').text('Asam🌹,   Thank You My Love ❤');
                 $b.addClass('show');
                 spawnConfetti(80);
                 $('#btn-yes, #btn-no').prop('disabled', true);
@@ -58,7 +58,7 @@
                 if ($b.length && $b[0]) { $b[0].offsetHeight; } // force reflow to ensure banner paints
                 setTimeout(function() {
                     // navigate to WhatsApp link
-                    window.location = 'https://wa.me/2348169423337?text=YES%20I%20AM%20ALL%20IN%20OLD%20MAN%';
+                    window.location = 'https://wa.me/2348169423337?text=YES%20I%20AM%20ALL%20IN%20OLD%20MAN❤❤';
                 }, redirectDelay);
             } catch (err) {
                 console.error('Redirect failed:', err);
